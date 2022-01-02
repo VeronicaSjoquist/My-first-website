@@ -1,3 +1,5 @@
+/* This is a comment */
+
 body {
     background-color: rgb(174, 225, 255);
     color: rgb(48, 48, 48);
@@ -22,4 +24,16 @@ h1 {
 
 .highlight {
     background: lavender;
+}
+
+.box {
+    background: rgb(143, 21, 0);
+    width: 350px;
+    background-image: url(../img/sunset.jpg);
+    background-position: center;
+    background-size: cover;
+
+    margin: 50px;
+    border: 5px solid black;
+    padding: 50px;
 }
