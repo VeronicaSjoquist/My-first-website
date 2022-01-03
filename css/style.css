@@ -4,10 +4,55 @@ body {
     background-color: rgb(174, 225, 255);
     color: rgb(48, 48, 48);
     font-size: 21px;
+    background-image: url(../img/blue-snow.jpg);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: rgb(255, 0, 0);
+    color: rgb(0, 54, 172);
+    font-family: fantasy, serif;
+}
+
+p {
+    line-height: 1.25;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+.container {
+    background: white;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.decoration {
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .top-section {
@@ -27,13 +72,44 @@ h1 {
 }
 
 .box {
-    background: rgb(143, 21, 0);
-    width: 350px;
-    background-image: url(../img/sunset.jpg);
-    background-position: center;
-    background-size: cover;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
 
-    margin: 50px;
-    border: 5px solid black;
-    padding: 50px;
+.box1 {
+    background: rgba(255, 192, 203, 0.705);
+}
+
+.box2 {
+    background: red;
+}
+
+.box3 {
+    background: firebrick;
+}
+
+.box4 {
+    background: orange;
+}
+
+.box5 {
+    background: yellow;
+    clear: both;
+}
+
+.box6 {
+    background: greenyellow;
+}
+
+.box7 {
+    background: green;
+}
+
+.box8 {
+    background: blue;
+}
+
+.box9 {
+    background: purple;
 }
